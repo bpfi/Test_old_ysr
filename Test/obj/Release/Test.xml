@@ -1,0 +1,639 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Test
+</name>
+</assembly>
+<members>
+<member name="T:Test.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Test.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Test.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Test.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Test.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Test.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:Test.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Test.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Test.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:Test.test._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnArea">
+<summary>
+BtnArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnBranch">
+<summary>
+BtnBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblBranch">
+<summary>
+lblBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCMO">
+<summary>
+BtnCMO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCMO">
+<summary>
+lblCMO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnSetBPF">
+<summary>
+BtnSetBPF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblSetBPF">
+<summary>
+lblSetBPF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnTarget">
+<summary>
+BtnTarget control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._LblTarget">
+<summary>
+LblTarget control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCarBranch">
+<summary>
+BtnCarBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCarBranch">
+<summary>
+lblCarBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCarModel">
+<summary>
+BtnCarModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCarModel">
+<summary>
+lblCarModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCarModelType">
+<summary>
+BtnCarModelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCarModelType">
+<summary>
+lblCarModelType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCarOrigin">
+<summary>
+BtnCarOrigin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCarOrigin">
+<summary>
+lblCarOrigin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnCarType">
+<summary>
+BtnCarType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblCarType">
+<summary>
+lblCarType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._BtnDealer">
+<summary>
+BtnDealer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblDealer">
+<summary>
+lblDealer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._txtTglAwal">
+<summary>
+txtTglAwal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._txtTglAkhir">
+<summary>
+txtTglAkhir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblArea">
+<summary>
+lblArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._lblArea1">
+<summary>
+lblArea1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Test.test._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:Test.WS1.BPF_WS">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.#ctor">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncAreaCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncBranchCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCMOCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.setBPF_DatasourceCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.setTargetCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.removeAllTargetCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.deleteBPF_DatasourceCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncDealerCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCarOriginCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCarTypeCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCarBrandCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCarModelCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.syncCarModelTypeCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.testCompleted">
+<remarks/>
+</member>
+<member name="E:Test.WS1.BPF_WS.rebuildCompleted">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncArea(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncAreaAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncAreaAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncBranch(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Double,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncBranchAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Double,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncBranchAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Double,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCMO(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCMOAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCMOAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setBPF_Datasource(System.DateTime,System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setBPF_DatasourceAsync(System.DateTime,System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setBPF_DatasourceAsync(System.DateTime,System.String,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setTarget(System.String,System.String,System.String,System.String,System.String,System.Double,System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setTargetAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.setTargetAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.Int32,System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.removeAllTarget(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.removeAllTargetAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.removeAllTargetAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.deleteBPF_Datasource(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.deleteBPF_DatasourceAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.deleteBPF_DatasourceAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncDealer(System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncDealerAsync(System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncDealerAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarOrigin(System.String,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarOriginAsync(System.String,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarOriginAsync(System.String,System.String,System.Boolean,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarType(System.String,System.String,System.Boolean,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarTypeAsync(System.String,System.String,System.Boolean,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarTypeAsync(System.String,System.String,System.Boolean,System.Boolean,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarBrand(System.String,System.String,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarBrandAsync(System.String,System.String,System.String,System.Boolean,System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarBrandAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModel(System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModelAsync(System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModelAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModelType(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModelTypeAsync(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.syncCarModelTypeAsync(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.test">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.testAsync">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.testAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.rebuild(System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.rebuildAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.rebuildAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Test.WS1.BPF_WS.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncAreaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncAreaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncAreaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncBranchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncBranchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncBranchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCMOCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCMOCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCMOCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.setBPF_DatasourceCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.setBPF_DatasourceCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.setBPF_DatasourceCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.setTargetCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.setTargetCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.setTargetCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.removeAllTargetCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.removeAllTargetCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.removeAllTargetCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.deleteBPF_DatasourceCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.deleteBPF_DatasourceCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.deleteBPF_DatasourceCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncDealerCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncDealerCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncDealerCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarOriginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarOriginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCarOriginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarTypeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarTypeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCarTypeCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarBrandCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarBrandCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCarBrandCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarModelCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarModelCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCarModelCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarModelTypeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.syncCarModelTypeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Test.WS1.syncCarModelTypeCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Test.WS1.testCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Test.WS1.rebuildCompletedEventHandler">
+<remarks/>
+</member>
+</members>
+</doc>

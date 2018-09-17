@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="syncArea">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaManager" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="active" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsNonOpr" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncAreaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncAreaResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncBranch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="alamat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="notelp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchManager" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kota" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="active" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="adminEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SurveyFee" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsDemo" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsNonOpr" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncBranchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncBranchResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCMO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmoCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmoName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmoEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchManager" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adminEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="branchActive" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="cmoActive" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="telp" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsNonOpr" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCMOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCMOResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setBPF_Datasource">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="trDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmoCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Collected" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="OPEX" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="AYDA" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="PL" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="osAR" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="osAR60" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="interestIncome" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="opexvsOSAR" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="osAR60vsOSAR" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="interestIncomevsOSAR" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalSales" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="opexvsOSAR_Area" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="osAR60vsOSAR_Area" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="interestIncomevsOSAR_Area" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setBPF_DatasourceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="setBPF_DatasourceResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setTarget">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tahun" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="areaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cmoCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="targetAmount" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="targetNumApp" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="targetNumApprovedApp" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setTargetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="setTargetResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeAllTarget">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tahun" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeAllTargetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="removeAllTargetResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteBPF_Datasource">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tahun" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="keypass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteBPF_DatasourceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deleteBPF_DatasourceResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncDealer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dealerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dealerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dealerEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dealerActive" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncDealerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncDealerResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarOrigin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carOriginName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="carOriginActive" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="carOriginAssetCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarOriginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCarOriginResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carTypeName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="carTypeActive" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="allowNoInsurance" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="carTypeAssetCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCarTypeResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarBrand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carOriginAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carBrandName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="carBrandActive" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="carBrandAssetCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarBrandResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCarBrandResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarModel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carBrandAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carModelAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carModelName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="carModelActive" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarModelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCarModelResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarModelType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carModelAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carTypeAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carModelTypeAssetCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="carModelTypeName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="carModelTypeActive" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="syncCarModelTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="syncCarModelTypeResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="test">
+        <s:complexType />
+      </s:element>
+      <s:element name="testResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="rebuild">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="rebuildResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="syncAreaSoapIn">
+    <wsdl:part name="parameters" element="tns:syncArea" />
+  </wsdl:message>
+  <wsdl:message name="syncAreaSoapOut">
+    <wsdl:part name="parameters" element="tns:syncAreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchSoapIn">
+    <wsdl:part name="parameters" element="tns:syncBranch" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchSoapOut">
+    <wsdl:part name="parameters" element="tns:syncBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCMO" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCMOResponse" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceSoapIn">
+    <wsdl:part name="parameters" element="tns:setBPF_Datasource" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceSoapOut">
+    <wsdl:part name="parameters" element="tns:setBPF_DatasourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="setTargetSoapIn">
+    <wsdl:part name="parameters" element="tns:setTarget" />
+  </wsdl:message>
+  <wsdl:message name="setTargetSoapOut">
+    <wsdl:part name="parameters" element="tns:setTargetResponse" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetSoapIn">
+    <wsdl:part name="parameters" element="tns:removeAllTarget" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetSoapOut">
+    <wsdl:part name="parameters" element="tns:removeAllTargetResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteBPF_Datasource" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteBPF_DatasourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerSoapIn">
+    <wsdl:part name="parameters" element="tns:syncDealer" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerSoapOut">
+    <wsdl:part name="parameters" element="tns:syncDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCarOrigin" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCarOriginResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCarType" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCarTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCarBrand" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCarBrandResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCarModel" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCarModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:syncCarModelType" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:syncCarModelTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="testSoapIn">
+    <wsdl:part name="parameters" element="tns:test" />
+  </wsdl:message>
+  <wsdl:message name="testSoapOut">
+    <wsdl:part name="parameters" element="tns:testResponse" />
+  </wsdl:message>
+  <wsdl:message name="rebuildSoapIn">
+    <wsdl:part name="parameters" element="tns:rebuild" />
+  </wsdl:message>
+  <wsdl:message name="rebuildSoapOut">
+    <wsdl:part name="parameters" element="tns:rebuildResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncAreaHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="areaName" type="s:string" />
+    <wsdl:part name="areaManager" type="s:string" />
+    <wsdl:part name="active" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncAreaHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="branchName" type="s:string" />
+    <wsdl:part name="alamat" type="s:string" />
+    <wsdl:part name="notelp" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="branchManager" type="s:string" />
+    <wsdl:part name="branchEmail" type="s:string" />
+    <wsdl:part name="kota" type="s:string" />
+    <wsdl:part name="active" type="s:string" />
+    <wsdl:part name="adminEmail" type="s:string" />
+    <wsdl:part name="SurveyFee" type="s:string" />
+    <wsdl:part name="IsDemo" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="cmoName" type="s:string" />
+    <wsdl:part name="cmoEmail" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="branchName" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="branchManager" type="s:string" />
+    <wsdl:part name="branchEmail" type="s:string" />
+    <wsdl:part name="adminEmail" type="s:string" />
+    <wsdl:part name="branchActive" type="s:string" />
+    <wsdl:part name="cmoActive" type="s:string" />
+    <wsdl:part name="telp" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceHttpGetIn">
+    <wsdl:part name="trDate" type="s:string" />
+    <wsdl:part name="areaCode" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="Collected" type="s:string" />
+    <wsdl:part name="OPEX" type="s:string" />
+    <wsdl:part name="AYDA" type="s:string" />
+    <wsdl:part name="PL" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="osAR" type="s:string" />
+    <wsdl:part name="osAR60" type="s:string" />
+    <wsdl:part name="interestIncome" type="s:string" />
+    <wsdl:part name="opexvsOSAR" type="s:string" />
+    <wsdl:part name="osAR60vsOSAR" type="s:string" />
+    <wsdl:part name="interestIncomevsOSAR" type="s:string" />
+    <wsdl:part name="totalSales" type="s:string" />
+    <wsdl:part name="opexvsOSAR_Area" type="s:string" />
+    <wsdl:part name="osAR60vsOSAR_Area" type="s:string" />
+    <wsdl:part name="interestIncomevsOSAR_Area" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="setTargetHttpGetIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="bulan" type="s:string" />
+    <wsdl:part name="areaCode" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="targetAmount" type="s:string" />
+    <wsdl:part name="targetNumApp" type="s:string" />
+    <wsdl:part name="targetNumApprovedApp" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="setTargetHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetHttpGetIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceHttpGetIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="bulan" type="s:string" />
+    <wsdl:part name="keypass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="dealerCode" type="s:string" />
+    <wsdl:part name="dealerName" type="s:string" />
+    <wsdl:part name="dealerEmail" type="s:string" />
+    <wsdl:part name="dealerActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carOriginName" type="s:string" />
+    <wsdl:part name="carOriginActive" type="s:string" />
+    <wsdl:part name="carOriginAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carTypeName" type="s:string" />
+    <wsdl:part name="carTypeActive" type="s:string" />
+    <wsdl:part name="allowNoInsurance" type="s:string" />
+    <wsdl:part name="carTypeAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carOriginAssetCode" type="s:string" />
+    <wsdl:part name="carBrandName" type="s:string" />
+    <wsdl:part name="carBrandActive" type="s:string" />
+    <wsdl:part name="carBrandAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carBrandAssetCode" type="s:string" />
+    <wsdl:part name="carModelAssetCode" type="s:string" />
+    <wsdl:part name="carModelName" type="s:string" />
+    <wsdl:part name="carModelActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carModelAssetCode" type="s:string" />
+    <wsdl:part name="carTypeAssetCode" type="s:string" />
+    <wsdl:part name="carModelTypeAssetCode" type="s:string" />
+    <wsdl:part name="carModelTypeName" type="s:string" />
+    <wsdl:part name="carModelTypeActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="testHttpGetIn" />
+  <wsdl:message name="testHttpGetOut" />
+  <wsdl:message name="rebuildHttpGetIn">
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="rebuildHttpGetOut" />
+  <wsdl:message name="syncAreaHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="areaName" type="s:string" />
+    <wsdl:part name="areaManager" type="s:string" />
+    <wsdl:part name="active" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncAreaHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="branchName" type="s:string" />
+    <wsdl:part name="alamat" type="s:string" />
+    <wsdl:part name="notelp" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="branchManager" type="s:string" />
+    <wsdl:part name="branchEmail" type="s:string" />
+    <wsdl:part name="kota" type="s:string" />
+    <wsdl:part name="active" type="s:string" />
+    <wsdl:part name="adminEmail" type="s:string" />
+    <wsdl:part name="SurveyFee" type="s:string" />
+    <wsdl:part name="IsDemo" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncBranchHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="cmoName" type="s:string" />
+    <wsdl:part name="cmoEmail" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="branchName" type="s:string" />
+    <wsdl:part name="areaId" type="s:string" />
+    <wsdl:part name="branchManager" type="s:string" />
+    <wsdl:part name="branchEmail" type="s:string" />
+    <wsdl:part name="adminEmail" type="s:string" />
+    <wsdl:part name="branchActive" type="s:string" />
+    <wsdl:part name="cmoActive" type="s:string" />
+    <wsdl:part name="telp" type="s:string" />
+    <wsdl:part name="IsNonOpr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCMOHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceHttpPostIn">
+    <wsdl:part name="trDate" type="s:string" />
+    <wsdl:part name="areaCode" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="Collected" type="s:string" />
+    <wsdl:part name="OPEX" type="s:string" />
+    <wsdl:part name="AYDA" type="s:string" />
+    <wsdl:part name="PL" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="osAR" type="s:string" />
+    <wsdl:part name="osAR60" type="s:string" />
+    <wsdl:part name="interestIncome" type="s:string" />
+    <wsdl:part name="opexvsOSAR" type="s:string" />
+    <wsdl:part name="osAR60vsOSAR" type="s:string" />
+    <wsdl:part name="interestIncomevsOSAR" type="s:string" />
+    <wsdl:part name="totalSales" type="s:string" />
+    <wsdl:part name="opexvsOSAR_Area" type="s:string" />
+    <wsdl:part name="osAR60vsOSAR_Area" type="s:string" />
+    <wsdl:part name="interestIncomevsOSAR_Area" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="setBPF_DatasourceHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="setTargetHttpPostIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="bulan" type="s:string" />
+    <wsdl:part name="areaCode" type="s:string" />
+    <wsdl:part name="branchCode" type="s:string" />
+    <wsdl:part name="cmoCode" type="s:string" />
+    <wsdl:part name="targetAmount" type="s:string" />
+    <wsdl:part name="targetNumApp" type="s:string" />
+    <wsdl:part name="targetNumApprovedApp" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="setTargetHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetHttpPostIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="removeAllTargetHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceHttpPostIn">
+    <wsdl:part name="tahun" type="s:string" />
+    <wsdl:part name="bulan" type="s:string" />
+    <wsdl:part name="keypass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteBPF_DatasourceHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="dealerCode" type="s:string" />
+    <wsdl:part name="dealerName" type="s:string" />
+    <wsdl:part name="dealerEmail" type="s:string" />
+    <wsdl:part name="dealerActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncDealerHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carOriginName" type="s:string" />
+    <wsdl:part name="carOriginActive" type="s:string" />
+    <wsdl:part name="carOriginAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarOriginHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carTypeName" type="s:string" />
+    <wsdl:part name="carTypeActive" type="s:string" />
+    <wsdl:part name="allowNoInsurance" type="s:string" />
+    <wsdl:part name="carTypeAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarTypeHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carOriginAssetCode" type="s:string" />
+    <wsdl:part name="carBrandName" type="s:string" />
+    <wsdl:part name="carBrandActive" type="s:string" />
+    <wsdl:part name="carBrandAssetCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarBrandHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carBrandAssetCode" type="s:string" />
+    <wsdl:part name="carModelAssetCode" type="s:string" />
+    <wsdl:part name="carModelName" type="s:string" />
+    <wsdl:part name="carModelActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+    <wsdl:part name="carModelAssetCode" type="s:string" />
+    <wsdl:part name="carTypeAssetCode" type="s:string" />
+    <wsdl:part name="carModelTypeAssetCode" type="s:string" />
+    <wsdl:part name="carModelTypeName" type="s:string" />
+    <wsdl:part name="carModelTypeActive" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="syncCarModelTypeHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="testHttpPostIn" />
+  <wsdl:message name="testHttpPostOut" />
+  <wsdl:message name="rebuildHttpPostIn">
+    <wsdl:part name="keyPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="rebuildHttpPostOut" />
+  <wsdl:portType name="BPF_WSSoap">
+    <wsdl:operation name="syncArea">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Area</wsdl:documentation>
+      <wsdl:input message="tns:syncAreaSoapIn" />
+      <wsdl:output message="tns:syncAreaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Branch</wsdl:documentation>
+      <wsdl:input message="tns:syncBranchSoapIn" />
+      <wsdl:output message="tns:syncBranchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync CMO</wsdl:documentation>
+      <wsdl:input message="tns:syncCMOSoapIn" />
+      <wsdl:output message="tns:syncCMOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:setBPF_DatasourceSoapIn" />
+      <wsdl:output message="tns:setBPF_DatasourceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set Target</wsdl:documentation>
+      <wsdl:input message="tns:setTargetSoapIn" />
+      <wsdl:output message="tns:setTargetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Remove All Target</wsdl:documentation>
+      <wsdl:input message="tns:removeAllTargetSoapIn" />
+      <wsdl:output message="tns:removeAllTargetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:deleteBPF_DatasourceSoapIn" />
+      <wsdl:output message="tns:deleteBPF_DatasourceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Dealer</wsdl:documentation>
+      <wsdl:input message="tns:syncDealerSoapIn" />
+      <wsdl:output message="tns:syncDealerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Origin</wsdl:documentation>
+      <wsdl:input message="tns:syncCarOriginSoapIn" />
+      <wsdl:output message="tns:syncCarOriginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarTypeSoapIn" />
+      <wsdl:output message="tns:syncCarTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Brand</wsdl:documentation>
+      <wsdl:input message="tns:syncCarBrandSoapIn" />
+      <wsdl:output message="tns:syncCarBrandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelSoapIn" />
+      <wsdl:output message="tns:syncCarModelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelTypeSoapIn" />
+      <wsdl:output message="tns:syncCarModelTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:testSoapIn" />
+      <wsdl:output message="tns:testSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:rebuildSoapIn" />
+      <wsdl:output message="tns:rebuildSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BPF_WSHttpGet">
+    <wsdl:operation name="syncArea">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Area</wsdl:documentation>
+      <wsdl:input message="tns:syncAreaHttpGetIn" />
+      <wsdl:output message="tns:syncAreaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Branch</wsdl:documentation>
+      <wsdl:input message="tns:syncBranchHttpGetIn" />
+      <wsdl:output message="tns:syncBranchHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync CMO</wsdl:documentation>
+      <wsdl:input message="tns:syncCMOHttpGetIn" />
+      <wsdl:output message="tns:syncCMOHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:setBPF_DatasourceHttpGetIn" />
+      <wsdl:output message="tns:setBPF_DatasourceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set Target</wsdl:documentation>
+      <wsdl:input message="tns:setTargetHttpGetIn" />
+      <wsdl:output message="tns:setTargetHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Remove All Target</wsdl:documentation>
+      <wsdl:input message="tns:removeAllTargetHttpGetIn" />
+      <wsdl:output message="tns:removeAllTargetHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:deleteBPF_DatasourceHttpGetIn" />
+      <wsdl:output message="tns:deleteBPF_DatasourceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Dealer</wsdl:documentation>
+      <wsdl:input message="tns:syncDealerHttpGetIn" />
+      <wsdl:output message="tns:syncDealerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Origin</wsdl:documentation>
+      <wsdl:input message="tns:syncCarOriginHttpGetIn" />
+      <wsdl:output message="tns:syncCarOriginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarTypeHttpGetIn" />
+      <wsdl:output message="tns:syncCarTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Brand</wsdl:documentation>
+      <wsdl:input message="tns:syncCarBrandHttpGetIn" />
+      <wsdl:output message="tns:syncCarBrandHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelHttpGetIn" />
+      <wsdl:output message="tns:syncCarModelHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelTypeHttpGetIn" />
+      <wsdl:output message="tns:syncCarModelTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:testHttpGetIn" />
+      <wsdl:output message="tns:testHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:rebuildHttpGetIn" />
+      <wsdl:output message="tns:rebuildHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BPF_WSHttpPost">
+    <wsdl:operation name="syncArea">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Area</wsdl:documentation>
+      <wsdl:input message="tns:syncAreaHttpPostIn" />
+      <wsdl:output message="tns:syncAreaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Branch</wsdl:documentation>
+      <wsdl:input message="tns:syncBranchHttpPostIn" />
+      <wsdl:output message="tns:syncBranchHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync CMO</wsdl:documentation>
+      <wsdl:input message="tns:syncCMOHttpPostIn" />
+      <wsdl:output message="tns:syncCMOHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:setBPF_DatasourceHttpPostIn" />
+      <wsdl:output message="tns:setBPF_DatasourceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set Target</wsdl:documentation>
+      <wsdl:input message="tns:setTargetHttpPostIn" />
+      <wsdl:output message="tns:setTargetHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Remove All Target</wsdl:documentation>
+      <wsdl:input message="tns:removeAllTargetHttpPostIn" />
+      <wsdl:output message="tns:removeAllTargetHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete BPF_Datasource</wsdl:documentation>
+      <wsdl:input message="tns:deleteBPF_DatasourceHttpPostIn" />
+      <wsdl:output message="tns:deleteBPF_DatasourceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Dealer</wsdl:documentation>
+      <wsdl:input message="tns:syncDealerHttpPostIn" />
+      <wsdl:output message="tns:syncDealerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Origin</wsdl:documentation>
+      <wsdl:input message="tns:syncCarOriginHttpPostIn" />
+      <wsdl:output message="tns:syncCarOriginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarTypeHttpPostIn" />
+      <wsdl:output message="tns:syncCarTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Brand</wsdl:documentation>
+      <wsdl:input message="tns:syncCarBrandHttpPostIn" />
+      <wsdl:output message="tns:syncCarBrandHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelHttpPostIn" />
+      <wsdl:output message="tns:syncCarModelHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sync Car Model Type</wsdl:documentation>
+      <wsdl:input message="tns:syncCarModelTypeHttpPostIn" />
+      <wsdl:output message="tns:syncCarModelTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:testHttpPostIn" />
+      <wsdl:output message="tns:testHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Rebuild</wsdl:documentation>
+      <wsdl:input message="tns:rebuildHttpPostIn" />
+      <wsdl:output message="tns:rebuildHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BPF_WSSoap" type="tns:BPF_WSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="syncArea">
+      <soap:operation soapAction="http://tempuri.org/syncArea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <soap:operation soapAction="http://tempuri.org/syncBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <soap:operation soapAction="http://tempuri.org/syncCMO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <soap:operation soapAction="http://tempuri.org/setBPF_Datasource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <soap:operation soapAction="http://tempuri.org/setTarget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <soap:operation soapAction="http://tempuri.org/removeAllTarget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <soap:operation soapAction="http://tempuri.org/deleteBPF_Datasource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <soap:operation soapAction="http://tempuri.org/syncDealer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <soap:operation soapAction="http://tempuri.org/syncCarOrigin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <soap:operation soapAction="http://tempuri.org/syncCarType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <soap:operation soapAction="http://tempuri.org/syncCarBrand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <soap:operation soapAction="http://tempuri.org/syncCarModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <soap:operation soapAction="http://tempuri.org/syncCarModelType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap:operation soapAction="http://tempuri.org/test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <soap:operation soapAction="http://tempuri.org/rebuild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BPF_WSSoap12" type="tns:BPF_WSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="syncArea">
+      <soap12:operation soapAction="http://tempuri.org/syncArea" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <soap12:operation soapAction="http://tempuri.org/syncBranch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <soap12:operation soapAction="http://tempuri.org/syncCMO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <soap12:operation soapAction="http://tempuri.org/setBPF_Datasource" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <soap12:operation soapAction="http://tempuri.org/setTarget" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <soap12:operation soapAction="http://tempuri.org/removeAllTarget" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <soap12:operation soapAction="http://tempuri.org/deleteBPF_Datasource" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <soap12:operation soapAction="http://tempuri.org/syncDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <soap12:operation soapAction="http://tempuri.org/syncCarOrigin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <soap12:operation soapAction="http://tempuri.org/syncCarType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <soap12:operation soapAction="http://tempuri.org/syncCarBrand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <soap12:operation soapAction="http://tempuri.org/syncCarModel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <soap12:operation soapAction="http://tempuri.org/syncCarModelType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap12:operation soapAction="http://tempuri.org/test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <soap12:operation soapAction="http://tempuri.org/rebuild" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BPF_WSHttpGet" type="tns:BPF_WSHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="syncArea">
+      <http:operation location="/syncArea" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <http:operation location="/syncBranch" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <http:operation location="/syncCMO" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <http:operation location="/setBPF_Datasource" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <http:operation location="/setTarget" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <http:operation location="/removeAllTarget" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <http:operation location="/deleteBPF_Datasource" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <http:operation location="/syncDealer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <http:operation location="/syncCarOrigin" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <http:operation location="/syncCarType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <http:operation location="/syncCarBrand" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <http:operation location="/syncCarModel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <http:operation location="/syncCarModelType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <http:operation location="/test" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <http:operation location="/rebuild" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BPF_WSHttpPost" type="tns:BPF_WSHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="syncArea">
+      <http:operation location="/syncArea" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBranch">
+      <http:operation location="/syncBranch" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCMO">
+      <http:operation location="/syncCMO" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBPF_Datasource">
+      <http:operation location="/setBPF_Datasource" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setTarget">
+      <http:operation location="/setTarget" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeAllTarget">
+      <http:operation location="/removeAllTarget" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteBPF_Datasource">
+      <http:operation location="/deleteBPF_Datasource" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncDealer">
+      <http:operation location="/syncDealer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarOrigin">
+      <http:operation location="/syncCarOrigin" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarType">
+      <http:operation location="/syncCarType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarBrand">
+      <http:operation location="/syncCarBrand" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModel">
+      <http:operation location="/syncCarModel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCarModelType">
+      <http:operation location="/syncCarModelType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <http:operation location="/test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="rebuild">
+      <http:operation location="/rebuild" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BPF_WS">
+    <wsdl:port name="BPF_WSSoap" binding="tns:BPF_WSSoap">
+      <soap:address location="https://api2.primteksolusindo.com/dashboards/bpf/bpf_ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BPF_WSSoap12" binding="tns:BPF_WSSoap12">
+      <soap12:address location="https://api2.primteksolusindo.com/dashboards/bpf/bpf_ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BPF_WSHttpGet" binding="tns:BPF_WSHttpGet">
+      <http:address location="https://api2.primteksolusindo.com/dashboards/bpf/bpf_ws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BPF_WSHttpPost" binding="tns:BPF_WSHttpPost">
+      <http:address location="https://api2.primteksolusindo.com/dashboards/bpf/bpf_ws.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

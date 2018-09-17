@@ -1,0 +1,401 @@
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\ApplicationInsights.config
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\csc.exe
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\System.Collections.Immutable.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\vbc.exe
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\VBCSCompiler.exe
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\roslyn\VBCSCompiler.exe.config
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Test.dll.config
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Test.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Test.pdb
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Test.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.Web.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.WindowsServer.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.ApplicationInsights.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.Web.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.AI.WindowsServer.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.ApplicationInsights.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.Resources.resources
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.dll
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.xml
+D:\Project_Primtek\TestWSBPF\Test\Test\obj\Debug\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\ApplicationInsights.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\csc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\vbc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\VBCSCompiler.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Test.dll.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.Web.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.Web.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.Resources.resources
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\VBCSCompiler.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\ApplicationInsights.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Test.dll.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\csc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\csc.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\csc.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\csi.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\csi.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.AppContext.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\vbc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\vbc.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\vbc.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.Web.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.Web.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.Resources.resources
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Configuration.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Data.DataSetExtensions.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Data.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Drawing.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.EnterpriseServices.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.ApplicationServices.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.DynamicData.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.Entity.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.Extensions.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Web.Services.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Xml.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\bin\System.Xml.Linq.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\ApplicationInsights.config
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Test.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Test.pdb
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Test.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\csc.exe
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\csc.exe.config
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\csc.rsp
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\csi.exe
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\csi.rsp
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.AppContext.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\vbc.exe
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\vbc.exe.config
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\vbc.rsp
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\VBCSCompiler.exe
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.Web.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Configuration.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Data.DataSetExtensions.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Data.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Drawing.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.EnterpriseServices.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.ApplicationServices.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.DynamicData.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.Entity.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.Extensions.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Web.Services.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Xml.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.Xml.Linq.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.Web.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\bin\System.EnterpriseServices.Wrapper.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.Resources.resources
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.dll
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.xml
+C:\Users\Batavia\Documents\Visual Studio 2012\Projects\Test_old\Test\obj\Debug\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.Resources.resources
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\obj\Debug\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\ApplicationInsights.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Test.dll.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Test.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Test.pdb
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Test.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\csc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\csc.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\csc.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\csi.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\csi.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.AppContext.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\vbc.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\vbc.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\vbc.rsp
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.Web.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Configuration.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Data.DataSetExtensions.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Data.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Drawing.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.EnterpriseServices.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.ApplicationServices.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.DynamicData.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.Entity.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.Extensions.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Web.Services.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Xml.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\System.Xml.Linq.dll
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.Web.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ITBPFI\Documents\Visual Studio 2015\Projects\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.Resources.resources
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.pdb
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\ApplicationInsights.config
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.dll.config
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.pdb
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.exe
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.exe.config
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.rsp
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csi.exe
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csi.rsp
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.AppContext.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Collections.Immutable.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.exe
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.exe.config
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.rsp
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe.config
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Web.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.ComponentModel.DataAnnotations.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Configuration.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Data.DataSetExtensions.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Data.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Drawing.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.EnterpriseServices.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.ApplicationServices.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.DynamicData.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.Entity.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.Extensions.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.Services.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Xml.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Xml.Linq.dll
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Web.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data D Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.vbprojResolveAssemblyReference.cache
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.Resources.resources
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.vbproj.GenerateResource.Cache
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\ApplicationInsights.config
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.dll.config
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.pdb
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Test.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.exe
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.exe.config
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csc.rsp
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csi.exe
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\csi.rsp
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.AppContext.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Collections.Immutable.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.exe
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.exe.config
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\vbc.rsp
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\roslyn\VBCSCompiler.exe.config
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Web.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.ComponentModel.DataAnnotations.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Configuration.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Data.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Drawing.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.EnterpriseServices.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.ApplicationServices.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.DynamicData.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.Entity.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Web.Services.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\System.Xml.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.DependencyCollector.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.Web.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.AI.WindowsServer.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.ApplicationInsights.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.dll
+D:\Data Heru\D\Data Lama\Documentation\dashboard primatek\Test_old_ysr\Test\obj\Debug\Test.pdb
